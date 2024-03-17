@@ -3,29 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Beautiful Page</title>
+  <title>My Awesome Blog</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Welcome to My Beautiful Page!</h1>
+    <h1>My Awesome Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
-    <section>
-      <h2>About Me</h2>
-      <p>I'm a web developer passionate about creating beautiful and functional websites.</p>
-    </section>
-    <section>
-      <h2>My Projects</h2>
-      <ul>
-        <li><a href="#">Project 1</a></li>
-        <li><a href="#">Project 2</a></li>
-        <li><a href="#">Project 3</a></li>
-      </ul>
-    </section>
+    <article>
+      <header>
+        <h2>My First Blog Post</h2>
+        <p class="post-meta">Published on March 17, 2024 by John Doe</p>
+      </header>
+      <div class="post-content">
+        <p>This is the content of my first blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dapibus nisi. Vivamus convallis vehicula lorem, vel iaculis lorem tincidunt et.</p>
+        <p>Nullam ut mi nec nisl elementum posuere. Nulla facilisi. Integer sit amet nunc sed ligula laoreet varius non sit amet ex. Vestibulum tristique malesuada libero, vel sagittis justo condimentum at.</p>
+        <p>Donec vestibulum, purus sit amet dictum fermentum, metus ex bibendum ligula, sit amet posuere purus arcu sed nisl. Mauris in est vel leo volutpat laoreet et sit amet turpis.</p>
+      </div>
+    </article>
+    <aside>
+      <div class="coupon">
+        <h3>Exclusive Coupon Code</h3>
+        <div class="coupon-code" onclick="copyCouponCode()">COUPON123</div>
+        <p>Click to copy code!</p>
+      </div>
+    </aside>
   </main>
   <footer>
-    <p>&copy; 2024 Beautiful Page. All rights reserved.</p>
+    <p>&copy; 2024 My Awesome Blog. All rights reserved.</p>
   </footer>
   <script src="script.js"></script>
 </body>

@@ -3,42 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Awesome Blog</title>
+  <title>My Awesome Page</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>My Awesome Blog</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <img src="logo.png" alt="Logo">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
     <article>
       <header>
-        <h2>My First Blog Post</h2>
-        <p class="post-meta">Published on March 17, 2024 by John Doe</p>
+        <h1>Welcome to My Blog</h1>
       </header>
-      <div class="post-content">
-        <p>This is the content of my first blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dapibus nisi. Vivamus convallis vehicula lorem, vel iaculis lorem tincidunt et.</p>
-        <p>Nullam ut mi nec nisl elementum posuere. Nulla facilisi. Integer sit amet nunc sed ligula laoreet varius non sit amet ex. Vestibulum tristique malesuada libero, vel sagittis justo condimentum at.</p>
-        <p>Donec vestibulum, purus sit amet dictum fermentum, metus ex bibendum ligula, sit amet posuere purus arcu sed nisl. Mauris in est vel leo volutpat laoreet et sit amet turpis.</p>
+      <div class="container">
+        <p class="coupon">
+          <span class="coupon-code">COUPON123</span>
+          <button onclick="copyCouponCode()">Copy</button>
+        </p>
+        <p>This is the content of my blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <!-- More paragraphs here -->
       </div>
+      <table class="table-3d">
+        <!-- Table content here -->
+      </table>
     </article>
-    <aside>
-      <div class="coupon">
-        <h3>Exclusive Coupon Code</h3>
-        <div class="coupon-code" onclick="copyCouponCode()">COUPON123</div>
-        <p>Click to copy code!</p>
-      </div>
-    </aside>
   </main>
   <footer>
-    <p>&copy; 2024 My Awesome Blog. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; 2024 My Awesome Page. All rights reserved.</p>
+    </div>
   </footer>
   <script src="script.js"></script>
 </body>
